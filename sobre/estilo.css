@@ -1,0 +1,39 @@
+section{
+max-width: 540px;
+    box-shadow: 2px 2px 7px rgb(167, 134, 134);
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(4, 107, 224);
+    margin-bottom: 15px;
+
+}
+body{
+    background-image:url(https://static.todamateria.com.br/upload/vi/al/vialactea-0-cke.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    color: #ececec;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   border: #238f8f;
+   max-width: 60%;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 91, 138);
+    padding: 10px;
+    color: #ececec;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.menu ul li{
+    cursor: pointer;
+}

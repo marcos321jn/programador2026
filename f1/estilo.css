@@ -1,0 +1,52 @@
+body{
+    background-color: #3dac21;
+    color: #c42d2d;
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif');
+    background-size: cover;
+    /*alinhamento por flexbox*/
+    display:flex;
+    /*alinha sentido acima para baixo*/
+    align-items: center;
+    /*alinha sentido esquerda para direita*/
+    justify-content: center;
+}
+.paoinel{
+    background-color: rgba(32, 141, 47, 0.473);
+    /*espaçamento interno*/
+    padding: 30px;
+      /*arredondamento de cantos*/
+      border-radius: 10px;
+      /*largura*/
+      width: 340px;
+        /*sombra*/    
+        box-shadow: 10px 10px 10px rgba(22, 165, 53, 0.5);
+        
+    
+}
+input, textarea{
+    width: 100%;
+    padding: 7px;
+    margin: 4px 0;
+    border: 2px solid #728510;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #248d0a;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(29, 102, 167);
+    margin: auto;
+    transition: all 0.3s ease;
+}
+button:hover{
+        background-color:#9b1111;
+        scale: 1.1
+        
+    }

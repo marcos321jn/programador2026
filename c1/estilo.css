@@ -1,0 +1,104 @@
+section{
+    max-width: 540px;
+    box-shadow: 2px 2px 7px rgb(167, 134, 134);
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(116, 20, 226, 0.39);
+    margin-bottom: 15px;
+    animation: animar alternate infinite 1s
+    
+}
+@keyframes animar{
+    0%{
+        box-shadow: 3px 3px 7px rgba(221, 151, 151, 0.8)}
+    25%{box-shadow: 3px 3px 7px rgba(255, 255, 255, 0.8)}
+
+    50%{box-shadow: 3px 3px 7px rgba(238, 0, 0, 0.911)}
+    55%{box-shadow: 3px 3px 7px rgba(255, 255, 255, 0.8)}
+
+    75%{box-shadow: 3px 3px 7px rgba(60, 3, 124, 0.8)}
+
+    100%{box-shadow: 3px 3px 7px rgba(16, 1, 44, 0.8)}
+
+}
+body{
+    background-image:url(https://static.todamateria.com.br/upload/vi/al/vialactea-0-cke.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    color: #6fb3b3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   border: #238f8f;
+
+}
+h3{
+     font-family: "Pacifiko", cursive;
+}
+.menu{
+    background-color: rgb(153, 0, 224);
+    background: linear-gradient(90deg, rgba(153, 0, 224, 1) 0%, rgb(206, 82, 82) 100%);
+}
+.menu ul li{
+    /*coloca os itens da lista em linha*/
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.menuicone{
+    display: none;
+}
+@media screen and (max-width: 1050px){
+    .menuicone{
+        display: block;
+        color: white;
+        text-align: left;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .menu ul{
+        display: none;
+        max-width: 90px;
+        font-size: 18px;
+    }
+    td{
+        font-size: 20px;
+    }
+    ul.mostrarmenu{
+        display: inline-block;
+    }
+    .menu ul li{
+        width: 100%;
+    }
+
+
+}
+.painel{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-around;
+   }@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+   {
+    font-family: serif;
+}
+footer{
+    background-color: rgb(153, 0, 224);
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding:40px;
+}
